@@ -11,11 +11,9 @@
     </nav>
     <section>
         <div class="info">
-            
-            <p></p>
+            <p>NEW PRODUCTS<br>NEW HOODIES<br>NEW T-SHIRTS<br></p>
         </div>
         <div class="product">
-
             <img src="images/hoodie1.png">
         </div>
         <div class="link">
@@ -28,10 +26,13 @@
             <img src="images/logo.png">
         </div>
         <div class="box">
-
-
         </div>
     </section>
+
+
+
+
+
 </body>
 html {
     background: rgb(54, 83, 162);
@@ -48,14 +49,17 @@ section {
     font-family: "Rogueland Free";
     grid-column: 3/4;
     grid-row: 2/3;
-    font-size: 200%
+    font-size: 200%;
+    border-right: 4px solid black;
+    height: 90%;
+    margin: 15px;
+    margin-left: 50px;
 }
 
 .product {
     grid-column: 4/5;
     grid-row: 2/3;
     justify-self: center;
-
 }
 
 .link {
@@ -65,8 +69,9 @@ section {
     grid-row: 1/2;
     justify-self: center;
     margin: 20px;
-color: yellow;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-bottom: 3px solid black;
+    margin-bottom: 180px;
 }
 
 .logo {
@@ -87,7 +92,5 @@ a:hover {
 
 a {
     color: black;
-    
-
-text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
 }
