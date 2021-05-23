@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <title>title</title>
+    <title>Free.com</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -14,7 +14,7 @@
             <p>NEW PRODUCTS<br>NEW HOODIES<br>NEW T-SHIRTS<br>NEW COLLECTION </p>
         </div>
         <div class="product">
-            <img src="images/hoodie1.png">
+            <img src="images/hoodie1.png" alt="hoddie">
         </div>
         <div class="link">
             <a href="index.html">HOME</a>
@@ -23,7 +23,7 @@
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="logo">
-            <img src="images/logo.png">
+            <img src="images/logo.png" alt="logo">
         </div>
         <div class="box">
         </div>
@@ -33,7 +33,7 @@
 <!DOCTYPE html>
 
 <head>
-    <title></title>
+    <title>Free.com</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -49,27 +49,27 @@
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="logo">
-            <img src="images/logo.png">
+            <img src="images/logo.png" alt="logo">
         </div>
         <div>
             <ul class="shop">
                 <li>
-                    <img src="images/black%20tshirt.png">
+                    <img src="images/black%20tshirt.png" alt="product">
                     <h1>Black Shirt</h1>
                     <p>$30</p>
                 </li>
                 <li>
-                    <img src="images/white%20tshirt.png">
+                    <img src="images/white%20tshirt.png" alt="product">
                     <h1>White Shirt</h1>
                     <p>$30</p>
                 </li>
                 <li>
-                    <img src="images/white%20hoddie.png">
+                    <img src="images/white%20hoddie.png" alt="product">
                     <h1>White Hoodie</h1>
                     <p>$45</p>
                 </li>
                 <li>
-                    <img src="images/black%20hoodie.png">
+                    <img src="images/black%20hoodie.png" alt="product">
                     <h1>Black Hoodie</h1>
                     <p>$45</p>
                 </li>
@@ -81,7 +81,7 @@
 <!DOCTYPE html>
 
 <head>
-    <title></title>
+    <title>Free.com</title>
     <link rel="stylesheet" href="styles.css">
     <script>
         function calulate() {
@@ -123,7 +123,7 @@
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="logo">
-            <img src="images/logo.png">
+            <img src="images/logo.png" alt="logo">
         </div>
         <div class="size">
             <input type="number" name="size" id="neck">
@@ -131,15 +131,15 @@
             <p id='answer'></p>
         </div>
         <div class="info2">
-            <p>Put your neck size(inchs) into the box then click submit. </p>
+            <p>Put your neck size(inches) into the box then click submit. </p>
         </div>
     </section>
 </body>
 
-<!DOCTYPE html>
+        <!DOCTYPE html>
 
 <head>
-    <title></title>
+    <title>Free.com</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -155,12 +155,13 @@
             <a href="contact.html">CONTACT</a>
         </div>
         <div class="logo">
-            <img src="images/logo.png">
+            <img src="images/logo.png" alt="logo">
         </div>
+        <h1>Contact us<br>glade@sbhsstudent.school.nz<br>0800-83-83-83</h1>
     </section>
 </body>
 
-html {
+        html {
     background: rgb(54, 83, 162);
     background: linear-gradient(276deg, rgba(54, 83, 162, 1) 10%,
             rgba(21, 184, 193, 1) 100%);
@@ -259,7 +260,15 @@ p {
     grid-row: 2/3;
     font-family: "Scratch Boys Demo";
 }
+
 .info2 {
-    margin:60px; 
+    margin: 60px;
     font-size: 200%;
+}
+
+h1 {
+    font-size: 200%;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    font-family: "Scratch Boys Demo";
 }
